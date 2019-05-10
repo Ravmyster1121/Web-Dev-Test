@@ -95,7 +95,7 @@
                                     echo "<b>Status Code: </b>" . $row["post_id"] . "<br>";
                                     echo "<b>Status: </b>" . $row["post_text"] . "<br>";
                                     echo "<b>Shared With: </b>" . $row["share_type"] . "<br>";
-                                    echo "<b>Date posted: </b>" . $row["date"] . "<br>";
+                                    echo "<b>Date posted: </b>" . $row["post_date"] . "<br>";
                                     echo "<b>Allow Likes: </b>" . $perm_like . "<br>";
                                     echo "<b>Allow Comments: </b>" . $perm_comment . "<br>";
                                     echo "<b>Allow Sharing: </b>" . $perm_share . "<br></p>";
