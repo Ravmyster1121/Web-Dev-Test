@@ -1,8 +1,8 @@
 <?php
 	//Controls the login details for the databse
 	//ENTER LOGIN DETAILS HERE
-    $host = "cmslamp14.aut.ac.nz";
-	$user = "dxc7283";
-	$pswd = "Rhninety123";
+    $host = "us-cdbr-iron-east-02.cleardb.net";
+	$user = "b7f12368de63cd";
+	$pswd = "4578d2a2";
 	$dbnm = "dxc7283";
 ?>

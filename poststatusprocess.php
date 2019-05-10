@@ -22,7 +22,7 @@
                 //LOGIN CREDENTIALS ARE ENTERED IN settings.php file
                 require_once("settings.php"); 
 
-                //Connect to database and display error message if connetion fails
+                //Connect to database and display error message if connection fails
                 $conn = new mysqli($host, $user, $pswd, $dbnm);
                 if($conn->connect_error){
                     die("Connection Failed" . $conn->connect_error);
