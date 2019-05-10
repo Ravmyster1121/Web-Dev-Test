@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Search Status Form</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="poststatusform.php">Post Status</a>
+                <a class="active" href="searchstatusform.html">Search Status</a>
+                <a id="about" href="about.html">About</a>
+            </div>
+
+            <h1>Search Status Text:</h1>
+
+            <form action="searchstatusprocess.php" method="GET">
+                <p>
+                    <b>Search Status:</b><br>
+                    <input type="text" name="search" required pattern="[a-Z0-9,.!? ]+"><br>
+                </p>
+
+                <p>
+                    <input type="submit" name="Submit"><br>
+                </p>
+            </form>
+
+            <p>
+                <button type="button" onclick="window.location.href='index.html'">Return to Home</button>
+            </p>
+        </div>
+    </body>
+</html>
