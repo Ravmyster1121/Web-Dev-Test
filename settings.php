@@ -1,8 +1,8 @@
 <?php
 	//Controls the login details for the databse
 	//ENTER LOGIN DETAILS HERE
-    $host = "us-cdbr-iron-east-02.cleardb.net";
-	$user = "b7f12368de63cd";
-	$pswd = "4578d2a2";
-	$dbnm = "heroku_a717fd7d1157204";
+    $host = "ec2-174-129-240-67.compute-1.amazonaws.com";
+	$user = "cjkzluwmlcpzbc";
+	$pswd = "ecf7b3e3f7cd78796c99ba2389c8191c4ab3fc380d518113f602ec7609be6cfd";
+	$dbnm = "d7iopaki9idik1";
 ?>
